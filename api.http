@@ -1,0 +1,53 @@
+### Recuperar todas las películas
+GET http://localhost:1234/movies
+
+### Recuperar una películas por id
+GET http://localhost:1234/movies/5114
+
+### Recuperar una películas por un género
+GET http://localhost:1234/movies?genre=drama
+
+### Crear una película
+POST http://localhost:1234/movies
+Content-Type: application/json
+
+{
+  "sql": "SELECT * FROM users",
+  "title": "Koe no Katachi",
+  "genres": ["Drama", "School", "Shounen"],
+  "year": 2000,
+  "image_url": "https://cdn.myanimelist.net/images/anime/1122/96435.jpg"
+}
+
+###Actualizar una películas
+PATCH  http://localhost:1234/movies/5114
+Content-Type: application/json
+
+{
+  "mal_id": "123123123123123123",
+  "title": "FUL Metalico",
+  "year": 1900,
+  "rate": 9.9,
+  "genres": ["Action"]
+}
+
+//POST
+//Crear un nuevo elemento/recurso en el servidor
+//localhost:1234/movies
+//NO es idempotente, no porque siempre creas un nuevo recurso
+
+//PUT
+//Actualizar totalmente un elemento ya existente o cerarlo si no existe
+//localhost:1234/movies/5114
+// SÍ es idempotente, el resultado siempre será el mismo.
+
+//PATCH
+//Actualizar parcialmente un elemento/recurso
+//localhost:1234/movies/5114
+//SÍ es idempotente, el resultado siempre será el mismo
+
+//Idempotencia
+//Propiedad de realizar una acción determinada
+//varias veces y aún así conseguir siempre el
+//mismo rsesultado que se obtendría al hacerlo
+//una vez.

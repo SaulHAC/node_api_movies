@@ -1,0 +1,53 @@
+{
+  "pagination": {
+    "last_visible_page": 198,
+    "has_next_page": true,
+    "current_page": 1,
+    "items": {
+      "count": 25,
+      "total": 4940,
+      "per_page": 25
+    }
+  },
+  "data": [
+    {
+      "mal_id": "39486",
+      "title": "Gintama: The Final",
+      "genres": ["Action", "Comedy", "Drama", "Sci-Fi"],
+      "image_url": "https://cdn.myanimelist.net/images/anime/1245/116760l.jpg",
+      "rate": 8.5
+    },
+    {
+      "mal_id": "5114",
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "genres": ["Action", "Adventure", "Drama", "Fantasy"],
+      "year": 1999,
+      "image_url": "https://cdn.myanimelist.net/images/anime/1223/96541l.jpg",
+      "rate": 8.5
+    },
+    {
+      "mal_id": "9253",
+      "title": "Steins;Gate",
+      "genres": ["Sci-Fi", "Thriller"],
+      "year": 1998,
+      "image_url": "https://cdn.myanimelist.net/images/anime/5/73199l.jpg",
+      "rate": 8.5
+    },
+    {
+      "mal_id": "11061",
+      "title": "Hunter x Hunter (2011)",
+      "year": 1997,
+      "genres": ["Action", "Adventure", "Fantasy", "Shounen"],
+      "image_url": "https://cdn.myanimelist.net/images/anime/1337/99013l.jpg",
+      "rate": 8.5
+    },
+    {
+      "mal_id": "21",
+      "title": "One Piece",
+      "genres": ["Action", "Adventure", "Comedy", "Fantasy"],
+      "year": 1996,
+      "image_url": "https://cdn.myanimelist.net/images/anime/6/73245.jpg",
+      "rate": 8.5
+    }
+  ]
+}
