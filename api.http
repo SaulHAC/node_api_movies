@@ -19,7 +19,7 @@ Content-Type: application/json
   "image_url": "https://cdn.myanimelist.net/images/anime/1122/96435.jpg"
 }
 
-###Actualizar una películas
+###Actualizar una película
 PATCH  http://localhost:1234/movies/5114
 Content-Type: application/json
 
@@ -30,6 +30,9 @@ Content-Type: application/json
   "rate": 9.9,
   "genres": ["Action"]
 }
+
+### Borrar un elemento
+DELETE http://localhost:1234/movies/39486
 
 //POST
 //Crear un nuevo elemento/recurso en el servidor
